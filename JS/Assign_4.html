@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: flex;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            background-color: #f5f6f8;
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+        }
+        .search-box {
+            width: 600px;
+            height: 15px;
+            padding: 10px 10px;
+            font-size: 20px;
+            border: 1px solid #7092cc;
+            border-radius: 5px;
+            outline: none;
+            margin-left: 40px;
+            transition: border-color 0.3s;
+        }
+        .search-box:focus {
+            border-color: #007bff;
+        }
+        .nav-container {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+        }
+        .nav-item:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div><img style="margin-left: 60px;" src="logo.png" alt="" height="50px"></div>
+        <div class="search-container"><input type="text" class="search-box" placeholder="🔍 Search for Products, Brands and More"></div>
+        <div class="nav-container">
+        <a href="#" class="nav-item" style="margin-left: 30px;"><i class="fas fa-user"></i> Login</a>
+        <a href="#" class="nav-item"><i class="fas fa-shopping-cart"></i>🛒 Cart</a>
+        <a href="#" class="nav-item"><i class="fas fa-store"></i>🏪 Become a Seller</a>
+    </div>
+    </div>
+    <img src="icon.png" width="1468px" alt="">
+    
+  
+</body>
+</html>
